@@ -1,0 +1,23 @@
+.flexcontainer{
+    width: 25%;
+    min-height: 80px;
+    flex-wrap: wrap;
+    padding: 2px 0;
+    text-align: center;
+    /*border: 3px solid green;*/
+    border-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.MainFlexContainer{
+    display: flex;
+    flex-wrap: wrap;
+    vertical-align: middle;
+}
+
+.container{
+    /*border-style: inset;*/
+}

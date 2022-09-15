@@ -1,0 +1,23 @@
+#contenedorPrimario{
+    margin: auto;
+    min-height: 100px;
+    background-color:beige;
+    padding: 1%;
+    width: 80%;
+    text-align: left;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+#container{
+    /*padding: 1%;*/
+}
+
+#contenedorSecundario{
+    margin: auto;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    
+    background-color:beige;
+    width: 80%;
+}

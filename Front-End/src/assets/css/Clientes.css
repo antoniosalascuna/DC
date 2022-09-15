@@ -1,0 +1,43 @@
+#contenedorPrimario{
+    margin: auto;
+    min-height: 100px;
+    background-color:beige;
+    padding: 1%;
+    width: 80%;
+    text-align: left;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+#container{
+    /*padding: 1%;*/
+}
+
+#contenedorSecundario{
+    margin: auto;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    padding: 1%;
+    background-color:beige;
+    width: 80%;
+}
+
+.btn-editar 
+{
+    color: #fff;
+    background-color:dimgrey;
+    border-color: dimgrey;
+    text-align: center;
+    text-decoration: none;
+    height: 50%;
+}
+
+.btn-delete
+{
+    color: #fff;
+    background-color: #76152e;
+    border-color: #76152e;
+    text-align: center;
+    text-decoration: none;
+    height: 50%;
+}

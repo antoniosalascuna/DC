@@ -1,0 +1,55 @@
+#contenedorIz{
+    margin: auto;
+    min-height: 100px;
+    background-color:beige;
+    padding: 1%;
+    width: 40%;
+    text-align: left;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    margin-right: 0.5%;
+}
+
+#container_facturacion{
+    /*padding: 1%;*/
+    display: flex;
+    padding: 1%;
+}
+
+#contenedorDe{
+    margin: auto;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    padding: 1%;
+    margin-left: 0.5%;
+    background-color:beige;
+    width: 60%;
+}
+
+#radiosFact{
+    display: flex;
+}
+
+.radio{
+    margin: 0.5%;
+}
+
+.btn-editar 
+{
+    color: #fff;
+    background-color:dimgrey;
+    border-color: dimgrey;
+    text-align: center;
+    text-decoration: none;
+    height: 50%;
+}
+
+.btn-delete
+{
+    color: #fff;
+    background-color: #76152e;
+    border-color: #76152e;
+    text-align: center;
+    text-decoration: none;
+    height: 50%;
+}
