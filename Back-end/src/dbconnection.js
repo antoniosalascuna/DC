@@ -17,6 +17,9 @@ connection.getConnection((err, connection) => {
         if (err.code === 'ECONNREFUSED') {
             console.log('LA CONEXION A LA BD FUE RECHAZADA');
         }
+        
+    }else {
+        console.log(err)
     }
 
     if(connection) connection.release();
