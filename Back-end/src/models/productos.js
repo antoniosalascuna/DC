@@ -16,22 +16,25 @@ var producto = {
     
     
     insert: function(req, res, data){
-        result= db.query('insert into tbl_productos set ?',data, (err, lista)=>{
+        consulta = 'INSERT INTO `tbl_productos`(`PRO_ID_PRODUCTO`, `PRO_NOMBRE`, `PRO_STOCK`, `PRO_PRECIO`, `PRO_DESCRIPCION`, `PRO_ESTADO`, `PRO_IMPUESTO`,`PRO_DOC_MAG`, `PRO_CODIGO_PRODUCTO`) VALUES (?,?,?,?,?,?,?,?,?);';
+        console.log('data', data)
+        result = db.query(consulta,[null,data.PRO_NOMBRE, data.PRO_STOCK, data.PRO_PRECIO, data.PRO_DESCRIPCION, data.PRO_ESTADO, data.PRO_IMPUESTO, data.PRO_DOC_MAG, data.PRO_CODIGO_PRODUCTO], (err, lista)=>{
         if(err){
             res.json(err);
         }else{
-            //res.json(lista);
+            console.log(lista)
+           // res.json(lista);
             
             res.json({
                   success: true,
                   message: 'Se ha insertado con éxito',
-                  //prueba: lista.insertId
                 });
         }
         });
     },
     
     update: function(req, res, data, dat){
+
         result= db.query('update tbl_productos set ? where PRO_ID_PRODUCTO= ?',[data, dat], (err, resultado)=>{
         if(err){
             //res.json(err);

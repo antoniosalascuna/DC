@@ -1,4 +1,3 @@
-import logo from './assets/imgs/logo.svg';
 import './assets/css/App.css';
 
 
@@ -7,22 +6,21 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Link
 } from 'react-router-dom'
 
-import HeaderMenu from './components/HeaderMenu';
+import Navbar from './components/navbar/Navbar';
 import Productos from './components/Productos.js';
 import Clientes from './components/Clientes.js';
 import Facturacion from './components/Facturacion.js';
 import Factura from './components/Factura.js';
-import Home from './components/Home.js';
+import Home from './components/home/Home.js';
 /*import Productos from './components/Productos.js';*/
 
 function App() {
   return (
     <div className="App">
           <Router>
-            <HeaderMenu />
+            <Navbar />
             <Switch>
                 <Route path="/productos">
                     <Productos />

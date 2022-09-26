@@ -120,7 +120,7 @@ const Productos = () => {
                                             </div>
 
 
-                                            <input name="estado"  type='hidden' id='estado' name='estado' value='A' />
+                                            <input name="estado"  type='hidden' id='estado' className='form-control' value='A' />
 
                                             <div className="form-group col-md-4">
                                                 <label className="sr-only" htmlFor="Impuesto">Impuesto</label>

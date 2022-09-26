@@ -3,9 +3,9 @@
     /**********************************/
     /*Agregado Por Diego Bonilla Varas*/
     /**********************************/
-    background: #e9d362;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #e9d362, #333333);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #e9d362, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   /*  background: #e9d362;   *//* fallback for old browsers */
+   /*  background: -webkit-linear-gradient(to bottom, #e9d362, #333333); 
+    background: linear-gradient(to bottom, #e9d362, #333333);  */
     min-height: 100vh;
 }
 
